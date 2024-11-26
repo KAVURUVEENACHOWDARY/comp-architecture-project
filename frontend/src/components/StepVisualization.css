@@ -1,0 +1,34 @@
+.step-visualization {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-visualization h3 {
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  
+  .step-visualization .cache-visualization {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .step-visualization .cache-block {
+    width: 60px;
+    height: 60px;
+    background: #e74c3c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .step-visualization .cache-block.hit {
+    background: #2ecc71;
+  }
+  

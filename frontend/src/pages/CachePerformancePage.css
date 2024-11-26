@@ -1,0 +1,11 @@
+.cache-performance-page {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cache-performance-page h1 {
+    color: #34495e;
+    margin-bottom: 20px;
+  }

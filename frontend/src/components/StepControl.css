@@ -1,0 +1,26 @@
+.step-control {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .step-control button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .step-control button:hover {
+    background: #2980b9;
+  }
+  
+  .step-control p {
+    margin: 0;
+    font-weight: bold;
+  }
+  

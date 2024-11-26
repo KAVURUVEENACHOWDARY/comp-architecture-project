@@ -1,0 +1,26 @@
+/* src/components/CacheVisualization.css */
+.cache-visualization {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cache-visualization .cache-block {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: #e74c3c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .cache-visualization .cache-block.hit {
+    background: #2ecc71;
+  }
+  

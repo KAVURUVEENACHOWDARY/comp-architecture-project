@@ -1,0 +1,23 @@
+.performance-results {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .performance-results table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .performance-results th, .performance-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .performance-results th {
+    background: #f4f4f4;
+  }
+  
